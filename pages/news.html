@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="../js/lightbox.js"></script>
+</head>
+
+<body>
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <a href="../index.html#intro" onclick="menu()">
+                <i class="fas fa-graduation-cap"></i>
+            </a>
+        </div>
+        <a href="../index.html#despre" onclick="menu()">Despre noi</a>
+        <a href="../index.html#merite" onclick="menu()">Merite</a>
+        <a href="../index.html#galerie" onclick="menu()">Galerie</a>
+        <a href="../index.html#orar" onclick="menu()">Orar</a>
+        <a href="../index.html#contacte" onclick="menu()">Contacte</a>
+        <!-- <a href="acte.html" onclick="menu()">Acte normative</a> -->
+        <a href="news.html" onclick="menu()">Noutăți</a>
+    </navbar>
+
+    <main id="main">
+        <section id="news">
+            <h1 class="centered">Noutăți</h1>
+            <a href="../index.html" class="link-home">
+                <i class="fas fa-arrow-left"></i> Pagina principală</a>
+
+            <div class="noutate">
+                <div class="new-info">Adăugat la 21-05-2021</div>
+                <img src="../images/digital_lab.jpg" alt="imagine_scoala">
+                <h3>Laborator digital</h3>
+                <p>
+                    Liceul nostru s-a înregistrat în competiția "Laboratoare digitale". Inițiativa „Laboratoare Digitale” lansată de "Tekwill în Fiecare Școală", presupune crearea unor spații de învățare special amenajate, dotate cu echipamente digitale de ultimă generație,
+                    în incinta mai multor instituții de învățământ din țară. Laboratoarele Digitale vin să răspundă necesităților de educație ale liceelor regionale și să îi ajute pe elevi să-și formeze și să-și îmbunătățească abilitățile
+                    digitale – un absolut necesar pentru profesiile de astăzi, dar mai ales cele din viitor.
+                </p>
+            </div>
+            <div class="noutate">
+                <div class="new-info">Adăugat la 19-05-2021</div>
+                <img src="../images/clasa_viitorului.jpg" alt="imagine_scoala">
+                <h3>Clasa Viitorului</h3>
+                <p>
+                    Suntem bucuroși să facem parte din familia Clasa Viitorului! Clasa Viitorului este un proiect de educaţie digitală, implementat în instituţiile educaţionale din Moldova, care aduce un nou concept în pedagogie, oferind un spațiu de învățare deschis și
+                    motivațional, cu abordări interdisciplinare și inovative, prin utilizarea tehnologiilor digitale, ce favorizează procesul de învățare centrat pe elev. Echipamentele digitale transmise instituției în cadrul Proiectului ne vor oferi
+                    oportunitatea de a crea și desfășura lecții interactive moderne. Programul de formare este elaborat cu susținerea financiară integrală a Fundației Orange Moldova prin Centrul de Informații Universitare.
+                </p>
+            </div>
+        </section>
+        <footer>
+            <div class="titlu-footer">IP LT "Mihai Eminescu"</div>
+            <div class="centered">
+                <a href="https://www.facebook.com/groups/1690559034520752" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                    <!-- <img src="../images/fb.png" /> -->
+                </a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
